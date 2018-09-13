@@ -23,7 +23,7 @@ function currentLine(line)  {
     var linesNamesandNumbers = [];
 
     for(var i = 0; i<line.length; i++) {
-       linesNamesandNumbers.push(i + 1 + " ." + line[i]);
+       linesNamesandNumbers.push(i + 1+ ". " + line[i]);
      }
      console.log("The line is currently: " + linesNamesandNumbers)
      return "The line is currently: " + linesNamesandNumbers.join(" , ");
