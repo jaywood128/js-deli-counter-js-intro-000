@@ -15,7 +15,7 @@ function nowServing(line) {
   return "Currently serving " + line.shift() + ".";
   }
 }
-function currentLine(line)  { 
+function currentLine(line)  {
 
     if (!line.length)  {
         return "The line is currently empty."
@@ -23,7 +23,7 @@ function currentLine(line)  {
     var linesNamesandNumbers = [];
 
     for(var i = 0; i<line.length; i++) {
-       lineNamesandNumbers.push(i +1 + "." + line[i]); 
+       lineNamesandNumbers.push(i +1 + "." + line[i]);
      }
      console.log("The line is currently: " +linenamesandNumbers)
      return "The line is currently: " + linenamesandNumbers.join(",")
