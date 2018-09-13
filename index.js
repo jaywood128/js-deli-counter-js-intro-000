@@ -26,5 +26,5 @@ function currentLine(line)  {
        linesNamesandNumbers.push(i + 1+ ". " + line[i]);
      }
      console.log("The line is currently: " + linesNamesandNumbers)
-     return "The line is currently: " + linesNamesandNumbers.join(" , ");
+     return "The line is currently: " + linesNamesandNumbers.join(", ");
 }
